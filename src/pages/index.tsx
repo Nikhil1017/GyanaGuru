@@ -49,15 +49,15 @@ export default function Home() {
         {/* Open Graph meta tags for website preview */}
         <meta property="og:title" content="GyanaGuru - Empower Yourself Through Knowledge" />
         <meta property="og:description" content="Join GyanaGuru and empower yourself through knowledge. Explore a wide range of high-quality educational resources, interactive quizzes, and social features for active learning and collaboration." />
-        <meta property="og:image" content="https://gyanaguru.vercel.app/icons/logo128.svg" /> {/* Replace with the actual preview image URL */}
-        <meta property="og:url" content="https://gyanaguru.vercel.app" /> {/* Replace with the actual URL of the page */}
+        <meta property="og:image" content="https://live.staticflickr.com/65535/53072372030_a21abc85c8.jpg" /> {/* preview image URL */}
+        <meta property="og:url" content="https://gyanaguru.vercel.app" /> 
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="GyanaGuru" />
         {/* Twitter meta tags for website preview */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content="GyanaGuru - Empower Yourself Through Knowledge" />
         <meta property="twitter:description" content="Join GyanaGuru and empower yourself through knowledge. Explore a wide range of high-quality educational resources, interactive quizzes, and social features for active learning and collaboration." />
-        <meta property="twitter:image" content="https://gyanaguru.vercel.app/icons/logo128.svg" /> {/* Replace with the actual preview image URL */}
+        <meta property="twitter:image" content="https://live.staticflickr.com/65535/53072372030_a21abc85c8.jpg" /> {/* preview image URL */}
       </Head>
       {showPopup && (
         <MessagePopup message='already given' setShowPopup={setShowPopup} />
