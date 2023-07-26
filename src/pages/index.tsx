@@ -51,7 +51,7 @@ export default function Home() {
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="GyanaGuru - Empower Yourself Through Knowledge"/>
         <meta property="og:description" content="Join GyanaGuru and empower yourself through knowledge. Explore a wide range of high-quality educational resources, interactive quizzes, and social features for active learning and collaboration."/>
-        <meta property="og:image" content="https://live.staticflickr.com/65535/53072372030_a21abc85c8.jpg"/>
+        <meta property="og:image" content="https://live.staticflickr.com/65535/53072626623_bbfab7d319_b.jpg"/>
         <meta property="og:site_name" content="GyanaGuru" />
         {/* Twitter meta tags for website preview */}
         <meta name="twitter:card" content="summary_large_image"/>
@@ -59,7 +59,7 @@ export default function Home() {
         <meta property="twitter:url" content="https://gyana-guru.vercel.app/"/>
         <meta name="twitter:title" content="GyanaGuru - Empower Yourself Through Knowledge"/>
         <meta name="twitter:description" content="Join GyanaGuru and empower yourself through knowledge. Explore a wide range of high-quality educational resources, interactive quizzes, and social features for active learning and collaboration."/>
-        <meta name="twitter:image" content="https://live.staticflickr.com/65535/53072372030_a21abc85c8.jpg"/> {/* preview image URL */}
+        <meta name="twitter:image" content="https://live.staticflickr.com/65535/53072626623_bbfab7d319_b.jpg"/> {/* preview image URL */}
       </Head>
       {showPopup && (
         <MessagePopup message='already given' setShowPopup={setShowPopup} />
