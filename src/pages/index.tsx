@@ -33,29 +33,35 @@ export default function Home() {
   return (
     <>
       <Head>
-      
-        
-
-  <title>GyanaGuru - Empower Yourself Through Knowledge</title>
-  <meta name="description" content="Join GyanaGuru and empower yourself through knowledge. Explore a wide range of high-quality educational resources, interactive quizzes, and social features for active learning and collaboration."/>
-
-  
-  <meta property="og:url" content="https://gyana-guru-git-main1-nikhil1017.vercel.app/"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:title" content="GyanaGuru - Empower Yourself Through Knowledge"/>
-  <meta property="og:description" content="Join GyanaGuru and empower yourself through knowledge. Explore a wide range of high-quality educational resources, interactive quizzes, and social features for active learning and collaboration."/>
-  <meta property="og:image" content="https://live.staticflickr.com/65535/53072626623_bbfab7d319_b.jpg"/>
-
-  
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta property="twitter:domain" content="gyana-guru-git-main1-nikhil1017.vercel.app"/>
-  <meta property="twitter:url" content="https://gyana-guru-git-main1-nikhil1017.vercel.app/"/>
-  <meta name="twitter:title" content="GyanaGuru - Empower Yourself Through Knowledge"/>
-  <meta name="twitter:description" content="Join GyanaGuru and empower yourself through knowledge. Explore a wide range of high-quality educational resources, interactive quizzes, and social features for active learning and collaboration."/>
-  <meta name="twitter:image" content="https://live.staticflickr.com/65535/53072626623_bbfab7d319_b.jpg"/>
-
-  
-        
+        <title>GyanaGuru - Empower Yourself Through Knowledge</title>
+        <meta name="title" content="GyanaGuru - Empower Yourself Through Knowledge" />
+        <meta
+          name="description"
+          content="The Gyana Guru website is an online learning platform that provides access to high-quality educational resources in a wide range of subjects. It offers a vast library of courses, interactive quizzes and exercises, gamification elements, and social features to encourage active participation and collaboration among learners."
+        />
+        <meta name="language" content="en" />
+        <meta name="keywords" content="GyanaGuru, online learning platform, educational resources, wide range of subjects, high-quality courses, interactive quizzes, exercises, gamification elements, social features, active participation, collaboration, learners" />
+        <meta name="author" content="Piyush Kalyan" />
+        <meta name="robots" content="index, follow" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/logo.svg" />
+        {/* Open Graph meta tags for website preview */}
+        <meta property="og:url" content="https://gyana-guru.vercel.app/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="GyanaGuru - Empower Yourself Through Knowledge"/>
+        <meta property="og:description" content="Join GyanaGuru and empower yourself through knowledge. Explore a wide range of high-quality educational resources, interactive quizzes, and social features for active learning and collaboration."/>
+        <meta property="og:image" content="https://live.staticflickr.com/65535/53072626623_bbfab7d319_b.jpg"/>
+        <meta property="og:image:width" content="1909"/>
+        <meta property="og:image:height" content="990"/>
+        <meta property="og:site_name" content="GyanaGuru" />
+        {/* Twitter meta tags for website preview */}
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:domain" content="gyana-guru.vercel.app"/>
+        <meta property="twitter:url" content="https://gyana-guru.vercel.app/"/>
+        <meta name="twitter:title" content="GyanaGuru - Empower Yourself Through Knowledge"/>
+        <meta name="twitter:description" content="Join GyanaGuru and empower yourself through knowledge. Explore a wide range of high-quality educational resources, interactive quizzes, and social features for active learning and collaboration."/>
+        <meta name="twitter:image" content="https://live.staticflickr.com/65535/53072626623_bbfab7d319_b.jpg"/> {/* preview image URL */}
       </Head>
       {showPopup && (
         <MessagePopup message='already given' setShowPopup={setShowPopup} />
